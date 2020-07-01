@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         // Square Image
         Glide.with(MainActivity.this)
                 .load(urlSquare)
-                .placeholder(R.drawable.progress_bar)
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
                 .into(image);
     }
